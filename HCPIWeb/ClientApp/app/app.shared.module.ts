@@ -9,6 +9,9 @@ import { NavMenuComponent } from './components/navmenu/navmenu.component';
 import { HomeComponent } from './components/home/home.component';
 import { FetchDataComponent } from './components/fetchdata/fetchdata.component';
 import { CounterComponent } from './components/counter/counter.component';
+import { GroupsComponent } from './components/admin/admin.groups';
+import { AccessRolesComponent } from './components/admin/admin.accessroles';
+
 
 @NgModule({
     declarations: [
@@ -16,6 +19,8 @@ import { CounterComponent } from './components/counter/counter.component';
         NavMenuComponent,
         CounterComponent,
         FetchDataComponent,
+        GroupsComponent,
+        AccessRolesComponent,
         HomeComponent
     ],
     imports: [
@@ -27,6 +32,8 @@ import { CounterComponent } from './components/counter/counter.component';
             { path: 'home', component: HomeComponent },
             { path: 'counter', component: CounterComponent },
             { path: 'fetch-data', component: FetchDataComponent },
+            { path: 'admin-groups', component: GroupsComponent },
+            { path: 'admin-accessroles', component: AccessRolesComponent },
             { path: '**', redirectTo: 'home' }
         ])
     ]

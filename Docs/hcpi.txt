@@ -1,0 +1,16 @@
+
+My main requirement is to be able to put all of this information into the system for easy monitoring:
+
+•	Employee Information
+•	Disciplinary Records
+•	Issue memos from within the system
+•	Disciplinary History
+•	Access to Company Handbook for reference
+•	Attendance Records
+•	Emergency/Vacation Leaves monitoring
+•	Attendance History
+•	Training/Seminars Records
+•	Performance Evaluation Records
+
+I would also like to update the employee info to include facebook profile and other social media information. Can we design the interface of the system so as to look like a facebook page? 
+
